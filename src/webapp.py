@@ -4,7 +4,7 @@ from sidebar import sidebar_conf
 
 # basic configuration
 st.set_page_config(
-    page_title="ArtiFact",
+    page_title="ArtiGen",
     page_icon="./assests/favicon.png",
     layout="centered",
     initial_sidebar_state="expanded",
