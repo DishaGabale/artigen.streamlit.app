@@ -71,6 +71,8 @@ To use ArtiGen, follow these steps:
 - **Embeddings**: For semantic understanding and metadata generation.
 
 ## Results
+VIDEO RECORDING OF THE MODEL
+https://drive.google.com/file/d/19IW999OxQQpbNe6XCVd9c81_MYPlrEjE/view?usp=sharing
 Explore the output folder for screenshots of generated articles, demonstrating the application's capability to create informative and well-structured content.
 
 ## Contact
