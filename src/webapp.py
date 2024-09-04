@@ -48,7 +48,7 @@ if topic and generate_article:
     loading_placeholder.markdown(loading_html, unsafe_allow_html=True)
 
     # Write article
-    article = write_article(inputs, st.secrets["email"], st.secrets["password"])
+    article = write_article(inputs, st.secrets["credentials"]["email"], st.secrets["credentials"]["password"])
 
     if article:
         loading_placeholder.empty()
