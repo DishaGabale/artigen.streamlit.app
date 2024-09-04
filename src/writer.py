@@ -29,7 +29,7 @@ if __name__ == "__main__":
          'user': 'government policy',
         'words': '500'
     }
-    email = 'gabaledisha@gmail.com'
-    password = 'i@mDi5ha'
+    email = 'enter your mail'
+    password = 'enter your password'
     article = write_article(inputs, email, password)
     print(article)
