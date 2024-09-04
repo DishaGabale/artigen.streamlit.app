@@ -10,7 +10,6 @@ ArtiGen is an advanced article generator designed to fetch and create unique, st
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
 - [Results](#Results)
 - [Contact](#Contact)
   
