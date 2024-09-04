@@ -13,6 +13,7 @@ ArtiGen is an advanced article generator designed to fetch and create unique, st
 - [Project Structure](#project-structure)
 - [Results](#Results)
 - [Contact](#Contact)
+  
 
 ## Introduction
 
@@ -65,6 +66,7 @@ To use ArtiGen, follow these steps:
 
 - **Python**: Core programming language.
 - **Streamlit**: For building the web app interface.
+- **Hugchat**: For article generation
 - **requests**: For handling HTTP requests during data scraping.
 - **JSON**: For data storage and interchange format.
 - **Embeddings**: For semantic understanding and metadata generation.
