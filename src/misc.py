@@ -10,18 +10,17 @@ def fetch_image(topic, api_key):
     # Make the API request
     response = requests.get(api_url, headers=headers)
 
-    # Debugging: print status code and response text
+    
     print("Status Code:", response.status_code)  # Check the status code of the response
     print("Response Text:", response.text)       # Print the raw response text
 
     # Attempt to parse the JSON response
     try:
         data = response.json()
-        print("JSON Data:", data)  # Optional: Print the parsed JSON data
+        print("JSON Data:", data)  
     except requests.exceptions.JSONDecodeError:
         print("Error: Unable to decode JSON response. Response might be empty or malformed.")
-        data = None  # Handle this case appropriately
-
+        data = None  
     # Return the processed data
     return data
 
