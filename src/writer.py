@@ -5,11 +5,9 @@ def write_article(inputs, email, password):
     sign = Login(email, password)
     cookies = sign.login()
 
-    # save the cookies
     cookie_path_dir = "./cookies_snapshot"
     sign.saveCookiesToDir(cookie_path_dir)
 
-    # create the chatbot
     chatbot = hugchat.ChatBot(cookies=cookies.get_dict())
 
     # create new conversation
